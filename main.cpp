@@ -15,4 +15,5 @@ int main () {
     }
 
     cout << "Result is : " << sum << endl;
+    std::cout << "Made changes in master branch :(" << std::endl;
 }
