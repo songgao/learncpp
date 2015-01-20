@@ -15,4 +15,5 @@ int main () {
     }
 
     cout << "Result is : " << sum << endl;
+    std::cout << "This is used to learn Git :)" << std::endl;
 }
