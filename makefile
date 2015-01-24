@@ -1,8 +1,9 @@
-CXX=g++-4.8
-CXXFLAGS=-std=c++11
+CXXFLAGS=-std=c++11 -Wall -Werror
+TARGET=main
+OBJS=main.o Vector.o
 
-main: main.o Vector.o
-	$(CXX) $(CXXFLAGS) -o main main.o Vector.o
+$(TARGET): $(OBJS)
+	$(CXX) $(CXXFLAGS) -o $@ $^
 
 clean: 
-	rm main.o Vector.o
+	rm -f $(TARGET) $(OBJS)

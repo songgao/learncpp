@@ -1,6 +1,8 @@
-#include<iostream>
-#include "Vector.h"
+#include <iostream>
 #include <cmath>
+
+#include "Vector.h"
+
 using namespace std;
 
 int main () {
@@ -16,4 +18,6 @@ int main () {
 
     cout << "Result is : " << sum << endl;
     std::cout << "This is used to learn Git branch :)" << std::endl;
+
+    return 0;
 }
